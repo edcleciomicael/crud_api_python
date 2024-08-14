@@ -26,3 +26,9 @@ EXECUTAR ESSE SCRIPT NO BANCO DE DADOS PARA VALIDAR A PRIMARY KEY "UUID"
 ```bash
 CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 ```
+
+CASO NÃO ESTEJA INSTALADO NA MÁQUINA
+```bash
+pip install psycopg2-binary
+install build-dep python-psycopg2
+```

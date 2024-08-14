@@ -51,7 +51,7 @@ def delete(pessoa_id):
   pessoa = Pessoa.query.get_or_404(pessoa_id)
   db.session.delete(pessoa)
   db.session.commit()
-  return jsonify({'message': 'Cadastro removido do com sucesso'})
+  return jsonify({'message': 'Cadastro removido com sucesso'})
 
 if __name__ == '__main__':
   app.run(debug=True, port=8080, host='0.0.0.0')
