@@ -64,3 +64,13 @@ SELECT * FROM pessoa
   "nome_pai": "RICARDO MOREIRA",
   "cpf": "085.155.632.09"
 }
+
+{
+  "nome": "EDCLECIO MICAEL",
+  "data_nascimento": "31-03-1995",
+  "salario": "3000",
+  "observacoes": "Analista de sistema nas horas vagas",
+  "nome_mae": "JANAÍNA BATISTA",
+  "nome_pai": "EDNO ALEXANDRE",
+  "cpf": "083.655.164-03"
+}
