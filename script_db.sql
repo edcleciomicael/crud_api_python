@@ -30,7 +30,7 @@ CREATE INDEX pessoa_multi_idx
 
 INSERT INTO 
 	pessoa (nome, data_nascimento, salario, observacoes, nome_mae, nome_pai, cpf)
-	VALUES ('EDCLECIO MICAEL', '31-03-1995', 'R$3000', 'Analista de sistema nas horas vagas', 'JANAÍNA BATISTA', 'EDNO ALEXANDRE', '082.659.164-03'),
+	VALUES ('EDCLECIO MICAEL', '31-03-1995', 'R$3000', 'Analista de sistema nas horas vagas', 'JANAÍNA BATISTA', 'EDNO ALEXANDRE', '083.655.164-03'),
 		   ('ROBERTO DA SILVA', '20-06-2000', 'R$4500', 'Prestativo', 'MARIA DO CEU', 'JOÃO MARIA DA SILVA', '100.750.185-10'),
 		   ('BEATRIZ GOMES PAIVA', '01-08-1998', 'R$2700', 'Dedicada', 'JULIANA GOMES FONSECA', 'REINALDO PAIVA', '090.641.254-15');
 
